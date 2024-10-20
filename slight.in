@@ -22,7 +22,10 @@ CUT_PT = 0 #Cut in pT? 0 = (no, 1 = yes)
 PT_MIN = 1.0 #Minimum pT in GeV
 PT_MAX = 3.0 #Maximum pT in GeV
 PROD_MODE = 12     #gg or gP switch (1 = 2-photon, 2 = coherent vector meson (narrow), 3 = coherent vector meson (wide), 4 = incoherent vector meson)
-N_EVENTS = 33000
+N_EVENTS = 100000
+#N_EVENTS = 45000
+#N_EVENTS = 30000
+
 PROD_PID = 553011 #Upsilon1S->e+e-
 #PROD_PID = 554011 #Upsilon2S->e+e-
 #PROD_PID = 555011 #Upsilon3S->e+e-
@@ -31,8 +34,6 @@ PROD_PID = 553011 #Upsilon1S->e+e-
 #PROD_PID = 554013 #Upsilon2S->mu+mu-
 #PROD_PID = 555013 #Upsilon3S->mu+mu-
 
-#PROD_PID = 443011 #JPsi->e+e-
-#PROD_PID = 113 #rho->pi+pi-
 RND_SEED = 5574531 #Random number seed
 BREAKUP_MODE = 5     #Controls the nuclear breakup; a 5 here makes no requirement on the breakup of the ions
 OUTPUT_FORMAT = 2 #0=default, 1=pythia, 2=hepmc3, 3=lund
